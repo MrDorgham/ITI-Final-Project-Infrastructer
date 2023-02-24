@@ -1,8 +1,9 @@
 #create private VM
 resource "google_compute_instance" "private-vm2" {
   name         = "private-vm-kubectl"
-  machine_type = "e2-micro"
+  machine_type = "e2-standard-4"
   zone         = "us-east1-b"
+ 
  
   
   #attacht the subnet
@@ -17,6 +18,9 @@ resource "google_compute_instance" "private-vm2" {
       image = "debian-cloud/debian-11"
     }
   }
+
+  metadata_startup_script = file("private_vm_script.sh")
+
 
 }
 
