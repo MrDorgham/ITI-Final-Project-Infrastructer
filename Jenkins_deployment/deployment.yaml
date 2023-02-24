@@ -16,7 +16,7 @@ spec:
       serviceAccountName: jenkins-admin
       containers:
         - name: jenkins
-          image: jenkins/jenkins:latest
+          image: d0rgham/jenkins-docker-k8
           resources:
             limits:
               memory: "2Gi"

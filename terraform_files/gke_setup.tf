@@ -38,7 +38,7 @@ resource "google_container_node_pool" "nodepool" {
 
   node_config {
     preemptible  = true
-    machine_type = "e2-medium"
+    machine_type = "e2-standard-4"
     # custom service account
     service_account = google_service_account.project-service-account.email
     oauth_scopes = [
