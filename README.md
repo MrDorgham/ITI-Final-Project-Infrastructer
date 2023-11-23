@@ -7,6 +7,8 @@ The ITI Final Project involves the creation of a private cluster, deployment of 
 - [Project Infrastructure](https://github.com/MrDorgham/ITI-Final-Project-Infrastructer)
 - [Application](https://github.com/MrDorgham/ITI-Final-Project-App)
 
+![Copy of Blank diagram (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ec1b81c7-eb5a-4d34-9d0c-b67782e1cfef/9b970cab-7f6f-4ef9-b787-809a9ba967d9/Copy_of_Blank_diagram_(1).png)
+
 ## Terraform Components:
 
 The Terraform scripts include the setup of various components:
@@ -18,8 +20,6 @@ The Terraform scripts include the setup of various components:
 - NAT Gateway and Router
 - Service Account
 - Automation for private-bastion
-
-https://documents.lucid.app/documents/aa5c849b-13e7-4c67-8bc4-3cf784fd1c3f/pages/0_0?a=1443&x=1&y=2490&w=1541&h=1305&store=1&accept=image%2F*&auth=LCA%20bc7f12573cba7cfbb94136313e5d82e1006e36d86ea013cad1d2e0a1b4528084-ts%3D1700739157
 
 ### Commands to run Terraform:
 
