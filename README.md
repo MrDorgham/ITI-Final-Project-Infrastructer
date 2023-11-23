@@ -7,7 +7,7 @@ The ITI Final Project involves the creation of a private cluster, deployment of 
 - [Project Infrastructure](https://github.com/MrDorgham/ITI-Final-Project-Infrastructer)
 - [Application](https://github.com/MrDorgham/ITI-Final-Project-App)
 
-![Copy of Blank diagram (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ec1b81c7-eb5a-4d34-9d0c-b67782e1cfef/9b970cab-7f6f-4ef9-b787-809a9ba967d9/Copy_of_Blank_diagram_(1).png)
+![Infrastructure Diagram](https://github.com/MrDorgham/ITI-Final-Project-Infrastructer/raw/master/Screenshots/infrastructure%20Diagram%20.png)
 
 ## Terraform Components:
 
